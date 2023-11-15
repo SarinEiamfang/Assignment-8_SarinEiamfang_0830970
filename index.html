@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+    Filename: index.html
+    Author: Sarin Eiamfang w0830970
+    Date created: 14/11/2023
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Introduction</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="style.css">
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+<!--Add color to it using bootstrap text colour-->
+            <div class="bg-white p-2 text-dark"><h1>Sarin Eiamfang's Blog</h1></div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+<!--Add a container with 3 columns and 2 rows -->
+<!--Add different colors for each column.-->
+                    <div class="col-sm-4 pt-3 bg-primary text-white">
+                        <h3>Mobile Web Development </h3>
+                        <p>
+                        is the subject I like most for several reasons.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4 pt-3 bg-danger text-white">
+                        <h3>Challenges of responsive design</h3>
+                        <p>
+                        It's so much fun when creating websites that provide a seamless and responsive user experience across a variety of devices and screen sizes.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4 pt-3 bg-warning text-white">
+                        <h3>Updates on technologies</h3>
+                        <p>
+                        Mobile web development utilizes new technologies and frameworks, helping me to create more efficient, feature-rich, and visually appealing mobile websites.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4 pt-3 bg-success text-white">
+                        <h3>User centric design</h3>
+                        <p>
+                        Mobile web development involves creating interfaces and experiences that are intuitive, user-friendly, and tailored to the specific needs of mobile users.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4 pt-3 bg-info text-white">
+                        <h3>Ability to develop websites without graphic design skills</h3>
+                        <p>
+                        However, having a basic understanding of design principles, color theory can enhance your ability to create more visually pleasing and user-friendly websites.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4 pt-3 bg-secondary text-white">
+                        <h3>Good money!</h3>
+<!--Have the last column be non-selectable using bootstrap interactions.-->
+                        <p class="user-select-none">
+                        There is a high demand for skilled mobile web developers in the job market. 
+                        </p>
+                    </div>
+
+<!--Add 2 more columns below it, and space them using bootstrap spacing utility with appropriate margin and padding -->
+                    <div class="mt-3 mb-3 pt-3 col-sm-6 bg-light text-dark">
+                        <h3>Web Usability</h3>
+                        <p>
+                        Additionally, I like Web Usability course as it helps me prepare for a career as a UX designer. 
+                        </p>
+                    </div>
+
+                    <div class="mt-3 mb-3 pt-3 col-sm-6 bg-dark text-white">
+                        <h3>AGILE project management</h3>
+                        <p>
+                        This course teaches me how to excel in both the technical and business aspects of the field. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </body>
+</html>
+

@@ -1,0 +1,58 @@
+/**
+Filename: style.css
+Author: Sarin Eiamfang
+**/
+
+
+/****************************  MAIN STYLES - 1200px ***********************************/
+
+main {
+    background-color: rgba(234, 225, 214, 0.85);
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+
+/****************************  MEDIA STYLES - LARGE ***********************************/
+
+@media (max-width: 992px)
+{   
+    main {
+        background-color: #96e6a1;
+    }
+}
+
+/****************************  MEDIA STYLES - MEDIUM  ***********************************/
+
+@media (max-width: 768px)
+{   
+    main {
+        background-color: #fcb69f;
+    }
+}
+
+
+/****************************  MEDIA STYLES - SMALL  ***********************************/
+
+@media (max-width: 576px) 
+{
+   main {
+        background-color:  #c2e9fb;
+    }
+}
